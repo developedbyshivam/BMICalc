@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TermsConditionActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/terms_conditions"
+            android:fontFamily="@font/bebasneue"
+            android:letterSpacing="0.07"
+            android:textSize="36sp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="30dp" />
+        <TextView
+            android:id="@+id/tch2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/terms1"
+            android:layout_below="@id/tch1"
+            android:layout_marginTop="20dp" />
+        <TextView
+            android:id="@+id/tch3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tc2"
+            android:layout_below="@id/tch2"
+            android:layout_marginTop="12dp" />
+        <TextView
+            android:id="@+id/tch4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tc3"
+            android:layout_below="@id/tch3"
+            android:layout_marginTop="12dp" />
+        <TextView
+            android:id="@+id/tch5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tc4"
+            android:layout_below="@id/tch4"
+            android:layout_marginTop="12dp" />
+        <TextView
+            android:id="@+id/tch6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tc5"
+            android:layout_below="@id/tch5"
+            android:layout_marginTop="12dp" />
+        <TextView
+            android:id="@+id/tch7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tc6"
+            android:layout_below="@id/tch6"
+            android:layout_marginTop="12dp" />
+        <TextView
+            android:id="@+id/tch8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tc7"
+            android:layout_below="@id/tch7"
+            android:layout_marginTop="12dp" />
+        <TextView
+            android:id="@+id/tch9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tc8"
+            android:layout_below="@id/tch8"
+            android:layout_marginTop="12dp" />
+        <TextView
+            android:id="@+id/tch10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tc9"
+            android:layout_below="@id/tch9"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+        <TextView
+            android:id="@+id/tch11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tc10"
+            android:layout_below="@id/tch10"
+            android:layout_marginTop="12dp" />
+        <TextView
+            android:id="@+id/tch12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tc11"
+            android:layout_below="@id/tch11"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+        <TextView
+            android:id="@+id/tch13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tc12"
+            android:layout_below="@id/tch12"
+            android:layout_marginTop="12dp" />
+
+    </RelativeLayout>
+
+</ScrollView>

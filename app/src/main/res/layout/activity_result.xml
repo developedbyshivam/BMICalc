@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/tvResult1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/bebasneue"
+        android:gravity="center_horizontal"
+        android:letterSpacing="0.07"
+        android:textColor="#F56E79"
+        android:textSize="36sp" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/mark"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/tvResult1"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/tvResult2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mark"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/bebasneue"
+        android:gravity="center_horizontal"
+        android:letterSpacing="0.07"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/tvTips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvResult2"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/bebasneue"
+        android:letterSpacing="0.05"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/Tips1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTips"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/bebasneue"
+        android:letterSpacing="0.05"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/Tips2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Tips1"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/bebasneue"
+        android:letterSpacing="0.05"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/Tips3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Tips2"
+        android:layout_marginTop="14dp"
+        android:layout_marginStart="14dp"
+        android:fontFamily="@font/bebasneue"
+        android:letterSpacing="0.05"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/Tips4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Tips3"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/bebasneue"
+        android:letterSpacing="0.05"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/Tips5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Tips4"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/bebasneue"
+        android:letterSpacing="0.05"
+        android:textSize="18sp" />
+
+</RelativeLayout>

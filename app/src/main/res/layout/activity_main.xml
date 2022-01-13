@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/tvBmicalc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/bebasneue"
+        android:gravity="center"
+        android:letterSpacing="0.1"
+        android:text="@string/bmicalc"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/ivYoga"
+        android:layout_width="300dp"
+        android:layout_height="320dp"
+        android:layout_below="@id/tvBmicalc"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/yoga" />
+
+    <TextView
+        android:id="@+id/tvDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivYoga"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/bebasneue"
+        android:gravity="center"
+        android:letterSpacing="0.08"
+        android:text="@string/enter_your_details_below"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/etWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvDetails"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="28dp"
+        android:inputType="numberDecimal"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/et_background"
+        android:fontFamily="@font/bebasneue"
+        android:hint="@string/enter_weight_kg"
+        android:letterSpacing="0.05"
+        android:padding="10dp"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/etHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etWeight"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/et_background"
+        android:inputType="numberDecimal"
+        android:fontFamily="@font/bebasneue"
+        android:hint="@string/enter_height_cm"
+        android:letterSpacing="0.05"
+        android:padding="10dp"
+        android:importantForAutofill="no" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCalculate"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etHeight"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/btn_background"
+        android:fontFamily="@font/bebasneue"
+        android:letterSpacing="0.06"
+        android:text="@string/calculate"
+        android:textSize="20sp" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/ivInfo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/information" />
+
+
+</RelativeLayout>

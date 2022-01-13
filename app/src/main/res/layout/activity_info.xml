@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/thankYou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/thankyou" />
+
+        <TextView
+            android:id="@+id/thanks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/thankYou"
+            android:fontFamily="@font/bebasneue"
+            android:gravity="center_horizontal"
+            android:letterSpacing="0.03"
+            android:text="@string/thank_you_for_using_my_app"
+            android:textColor="@color/purple"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/developedBy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/thanks"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bebasneue"
+            android:gravity="center_horizontal"
+            android:letterSpacing="0.03"
+            android:text="@string/developed_by_shivam_singh"
+            android:textColor="@color/purple"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/developedBy"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bebasneue"
+            android:gravity="center_horizontal"
+            android:letterSpacing="0.03"
+            android:text="@string/contact_developedBy_gmail_com"
+            android:textColor="@color/purple"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/disclaimer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contact"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/bebasneue"
+            android:letterSpacing="0.03"
+            android:text="@string/disclaimer"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/disclaimerDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/disclaimer"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="14dp"
+            android:fontFamily="@font/bebasneue"
+            android:letterSpacing="0.03"
+            android:text="@string/DisclaimerDescription"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/credit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/disclaimerDescription"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/bebasneue"
+            android:letterSpacing="0.03"
+            android:text="@string/credit"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/creditDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/credit"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="14dp"
+            android:fontFamily="@font/bebasneue"
+            android:letterSpacing="0.03"
+            android:text="@string/all_gif_credits_goes_to_lottiefiles_com"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/lottieFileLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/creditDescription"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bebasneue"
+            android:letterSpacing="0.03"
+            android:text="@string/click_here_to_visit_lottiefiles_com"
+            android:textColor="@color/almost_red"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/privacy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lottieFileLink"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/bebasneue"
+            android:letterSpacing="0.03"
+            android:text="@string/privacy_policy"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/privacyLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/privacy"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="14dp"
+            android:fontFamily="@font/bebasneue"
+            android:letterSpacing="0.03"
+            android:text="@string/read_our_privacy_policy_here"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/terms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/privacyLink"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/bebasneue"
+            android:letterSpacing="0.03"
+            android:text="@string/terms_conditions"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/termsLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/terms"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="14dp"
+            android:fontFamily="@font/bebasneue"
+            android:letterSpacing="0.03"
+            android:text="@string/TermsConditions"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/site"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/termsLink"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/bebasneue"
+            android:letterSpacing="0.03"
+            android:text="@string/visit_site"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/siteLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/site"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="14dp"
+            android:fontFamily="@font/bebasneue"
+            android:letterSpacing="0.03"
+            android:text="@string/click_here_to_visit_our_site"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/siteLink"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bebasneue"
+            android:letterSpacing="0.03"
+            android:text="@string/or_visit_bmicalc_0_flyCricket_io"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+
+</ScrollView>
